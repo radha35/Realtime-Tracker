@@ -78,9 +78,9 @@ http://localhost:3000
 
 ---
 
-## 📷 Screenshot (Example)
-![Map Screenshot](<img width="1200" height="705" alt="Screenshot 2025-08-14 003147" src="https://github.com/user-attachments/assets/20591b01-a91e-41d6-a4bd-5cb1feb2a578" />
-)
+## 📷 Screenshots
+> *(<img width="1200" height="705" alt="Screenshot 2025-08-14 003147" src="https://github.com/user-attachments/assets/7bb1aee1-fab8-4704-b31e-17f99cc703a3" />
+)*
 
 ---
 
