@@ -78,7 +78,7 @@ http://localhost:3000
 
 ---
 
-## 📷 Screenshot (Example)
+//## 📷 Screenshot (Example)
 ![Map Screenshot](https://upload.wikimedia.org/wikipedia/commons/e/ec/Map_example.png)
 
 ---
