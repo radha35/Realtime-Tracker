@@ -3,7 +3,6 @@
 A **Realtime Device Tracking** web application built using **Node.js**, **Express**, **Socket.io**, and **Leaflet.js**.  
 It allows users to track devices on a map in real-time. When a device sends its location, the map updates instantly without refreshing the page.
 
-📺 **Demo Video:** [Watch on YouTube](https://youtu.be/JmpDGMgRFfo?si=6bm8dLm0Z5rEL8Fd)
 
 ---
 
@@ -55,12 +54,17 @@ cd realtime_tracker
 npm install
 ```
 
-### 3️⃣ Run the Server
+### 3️⃣ Install Nodemon (if not installed globally)
 ```bash
-node app.js
+npm install nodemon --save-dev
 ```
 
-### 4️⃣ Open in Browser
+### 4️⃣ Run the Server with Nodemon
+```bash
+npx nodemon app.js
+```
+
+### 5️⃣ Open in Browser
 ```
 http://localhost:3000
 ```
@@ -91,7 +95,10 @@ Device (Browser) → Socket.io (Client) → Express + Socket.io (Server) → All
 "dependencies": {
   "express": "^4.x.x",
   "socket.io": "^4.x.x",
-  "ejs": "^3.x.x" // If using EJS templates
+  "ejs": "^3.x.x"
+},
+"devDependencies": {
+  "nodemon": "^3.x.x"
 }
 ```
 
@@ -100,4 +107,3 @@ Device (Browser) → Socket.io (Client) → Express + Socket.io (Server) → All
 ## 👨‍💻 Author
 **Radha**  
 🔗 [GitHub](https://github.com/radha35)
-
